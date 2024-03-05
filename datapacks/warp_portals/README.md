@@ -32,3 +32,9 @@ After downloading the `Warp Portals vX.Y.Z.zip` file (vX.Y.Z is the version numb
 - **New SinglePlayer World**: When creating a new world, in the `More` tab, click on `Data Packs`, and drop the `Warp Portals vX.Y.Z.zip` file. The datapack will appear in the `Available` list, click in the arrow to add it to the `Selected` list and click `Done`.
 - **Existing SinglePlayer World**: Click `Edit` in the world selection screen, click `Open World Folder`, go to the `datapacks` folder and drop the `Warp Portals vX.Y.Z.zip` file.
 - **Multiplayer Server**: Drop the `Warp Portals vX.Y.Z.zip` file in the `datapacks` folder inside the world folder.
+
+## Uninstalling
+
+To uninstall Warp Portals, execute the command `/function warp_portals:uninstall` in the world where you installed the datapack, then remove the `Warp Portals vX.Y.Z.zip` file from the `datapacks` folder.
+
+Note that Minecraft doesn't provide the necessary tools to actually remove the entirety of a datapack. This function will break (and drop the Nether Stars) of all portals in currently loaded chunks (if there are portals far from you, make sure to break them before uninstalling to retrieve their Nether Stars).
