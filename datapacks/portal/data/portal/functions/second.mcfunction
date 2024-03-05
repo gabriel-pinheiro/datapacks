@@ -1,4 +1,4 @@
-schedule function portal:second 1s
+schedule function portal:second 10t
 
 function portal:teleport/check_teleport
 function portal:create/check_destination
