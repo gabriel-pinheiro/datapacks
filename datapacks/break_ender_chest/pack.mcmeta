@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Allows you to break the ender chests without Silk Touch",
+        "pack_format": 15,
+		"supported_formats": {"min_inclusive": 15, "max_inclusive": 33}
+    }
+}
