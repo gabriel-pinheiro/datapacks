@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/spawn_egg",
+        "layer1": "minecraft:item/spawn_egg_overlay"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 105001
+        },
+        "model": "minecraft:item/portal_wand"
+      }
+    ]
+  }
