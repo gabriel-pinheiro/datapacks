@@ -1,3 +1,2 @@
-tellraw @p {"text":"Destination changed, use the wand on Crying Obsidian to place the portal","color":"green"}
-function warp_portals:create/spawn_wand
-kill @s
+tellraw @p {"text":"There is another portal too close","color":"red"}
+function warp_portals:break/destroy
