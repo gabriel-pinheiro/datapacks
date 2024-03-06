@@ -1,11 +1,6 @@
-tag @s add warp_portals.portal_teleporting
+tag @s add warp_portals.portal_cooldown
+tag @s add warp_portals.teleporting
 
-execute as @s at @s run particle minecraft:portal ~ ~ ~ 0 0 0 1 100 normal
-execute as @s at @s run playsound minecraft:entity.enderman.teleport player @a ~ ~ ~
-
-function warp_portals:teleport/x
-function warp_portals:teleport/y
-function warp_portals:teleport/z
-
-execute as @s at @s run particle minecraft:reverse_portal ~ ~ ~ 0 0 0 1 100 normal
-execute as @s at @s run playsound minecraft:entity.enderman.teleport player @a ~ ~ ~
+particle minecraft:portal ~ ~ ~ 0 0 0 1 100 normal
+playsound minecraft:block.portal.travel neutral @s ~ ~ ~ 1
+effect give @s minecraft:nausea 30 1 true
