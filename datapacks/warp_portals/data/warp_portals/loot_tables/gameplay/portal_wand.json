@@ -1,0 +1,80 @@
+{
+    "type": "generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:shulker_spawn_egg",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:205001,Enchantments:[{}],EntityTag:{id:\"minecraft:marker\",Tags:[\"warp_portals.wand\"]}}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Portal Wand",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "entity": "this",
+                "lore": [[
+                  {
+                    "text": "Destination X: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "warp_portals.portal_x"
+                    },
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " Y: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "warp_portals.portal_y"
+                    },
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " Z: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "warp_portals.portal_z"
+                    },
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ]]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

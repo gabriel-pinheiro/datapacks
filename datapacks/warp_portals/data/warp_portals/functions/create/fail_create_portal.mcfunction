@@ -1,4 +1,3 @@
-give @p shulker_spawn_egg{display:{Name:'{"text":"Portal Wand","italic":false}'},CustomModelData:205001,Enchantments:[{}],EntityTag:{Silent:1b,CustomNameVisible:0b,NoAI:1b,AttachFace:0b}} 1
-tellraw @p {"text":"Portals must be created on crying obsidian","color":"red"}
-
-tp @s ~ ~-1000 ~
+tellraw @p {"text":"Destination changed, use the wand on Crying Obsidian to place the portal","color":"green"}
+function warp_portals:create/spawn_wand
+kill @s

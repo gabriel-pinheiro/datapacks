@@ -12,9 +12,7 @@ scoreboard objectives remove warp_portals.portal_delta_z
 scoreboard objectives remove warp_portals.portal_reg_x
 scoreboard objectives remove warp_portals.portal_reg_y
 scoreboard objectives remove warp_portals.portal_reg_z
-scoreboard objectives remove warp_portals.portal_create_x
-scoreboard objectives remove warp_portals.portal_create_y
-scoreboard objectives remove warp_portals.portal_create_z
 
+datapack disable "file/warp_portals"
 datapack disable "file/Warp Portals v1.0.0.zip"
 datapack disable "file/Warp Portals v1.0.1.zip"

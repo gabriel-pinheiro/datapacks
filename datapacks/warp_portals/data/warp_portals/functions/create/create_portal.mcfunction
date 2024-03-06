@@ -1,9 +1,9 @@
 summon marker ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Tags:["warp_portals.portal"]}
-scoreboard players operation @e[tag=warp_portals.portal,sort=nearest,limit=1] warp_portals.portal_x = @p warp_portals.portal_create_x
-scoreboard players operation @e[tag=warp_portals.portal,sort=nearest,limit=1] warp_portals.portal_y = @p warp_portals.portal_create_y
-scoreboard players operation @e[tag=warp_portals.portal,sort=nearest,limit=1] warp_portals.portal_z = @p warp_portals.portal_create_z
+execute as @s store result score @e[tag=warp_portals.portal,sort=nearest,limit=1] warp_portals.portal_x run data get entity @s data.PortalWandX 1
+execute as @s store result score @e[tag=warp_portals.portal,sort=nearest,limit=1] warp_portals.portal_y run data get entity @s data.PortalWandY 1
+execute as @s store result score @e[tag=warp_portals.portal,sort=nearest,limit=1] warp_portals.portal_z run data get entity @s data.PortalWandZ 1
 
 particle minecraft:portal ~ ~1 ~ 0 0 0 2 1000 normal
 playsound minecraft:entity.ender_dragon.growl neutral @a ~ ~ ~ 1 2
 
-tp @s ~ ~-1000 ~
+kill @s
