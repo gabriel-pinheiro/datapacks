@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Create a Warp Portal",
+        "description": "Use the Portal Wand in a Crying Obsidian to create a portal",
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "warp_portals:forge_wand",
+    "criteria": {
+        "warp_portals_forge_wand": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
