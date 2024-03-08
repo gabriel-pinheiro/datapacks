@@ -1,6 +1,7 @@
 execute as @e[tag=warp_portals.portal] at @s run function warp_portals:break/destroy
 tag @a remove warp_portals.portal_cooldown
 tag @a remove warp_portals.teleporting
+tag @e remove warp_portals.ignore
 
 schedule clear warp_portals:second
 

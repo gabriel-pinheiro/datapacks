@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Forge a Portal Wand",
-        "description": "Drop a Nether Star and an Ender Pearl on a Crying Obsidian",
+        "description": "Drop an Ender Pearl on a Crying Obsidian",
         "icon": {
             "item": "minecraft:ender_pearl"
         },
@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "minecraft:nether/summon_wither",
+    "parent": "minecraft:nether/obtain_crying_obsidian",
     "criteria": {
         "warp_portals_forge_wand": {
             "trigger": "minecraft:impossible"

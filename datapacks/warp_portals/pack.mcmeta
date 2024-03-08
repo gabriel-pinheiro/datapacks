@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Create Warp Portals between your locations. Drop an Ender Pearl and a Nether Star in a Crying Obsidian block to start.",
+        "description": "Create Warp Portals between your locations. Drop an Ender Pearl in a Crying Obsidian block to start.",
         "pack_format": 15,
 		"supported_formats": {"min_inclusive": 15, "max_inclusive": 32}
     }

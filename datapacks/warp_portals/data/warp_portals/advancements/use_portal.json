@@ -3,7 +3,7 @@
         "title": "Use a Warp Portal",
         "description": "Use a Warp Portal to teleport to another location",
         "icon": {
-            "item": "minecraft:nether_star"
+            "item": "minecraft:chorus_fruit"
         },
         "frame": "goal",
         "show_toast": true,

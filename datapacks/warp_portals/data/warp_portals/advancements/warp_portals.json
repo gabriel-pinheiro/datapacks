@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Warp Portals",
-        "description": "Create Warp Portals between your locations. Drop an Ender Pearl and a Nether Star in a Crying Obsidian block to start",
+        "description": "Create Warp Portals between your locations. Drop an Ender Pearl in a Crying Obsidian block to start",
         "icon": {
             "item": "minecraft:crying_obsidian"
         },

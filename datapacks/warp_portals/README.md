@@ -10,7 +10,7 @@ https://github.com/gabriel-pinheiro/datapacks/assets/56726395/badcf745-74c5-4ca9
 
 ### Forging the Portal Wand
 
-To create a Warp Portal, you need to forge a Portal Wand. To do so, you need to drop a **Nether Star** and an **Ender Pearl** in a **Crying Obsidian** block. They will turn into a portal and **and the Crying Obsidian will be the destination of the portal** created by the wand.
+To create a Warp Portal, you need to forge a Portal Wand. To do so, you need to drop an **Ender Pearl** in a **Crying Obsidian** block. They will turn into a portal and **and the Crying Obsidian will be the destination of the portal** created by the wand.
 
 https://github.com/gabriel-pinheiro/datapacks/assets/56726395/8cdc0078-d18e-4355-b4a9-e8f3183f70e8
 
@@ -22,7 +22,7 @@ https://github.com/gabriel-pinheiro/datapacks/assets/56726395/b7c8f8a0-1a4f-4de5
 
 ### Destroying the Portal
 
-To destroy the portal, simply break the **Crying Obsidian** block in the entrance (where you see the particles) and the portal will be destroyed. **The Nether Star used to create the wand will drop above**.
+To destroy the portal, simply break the **Crying Obsidian** block in the entrance (where you see the particles) and the portal will be destroyed. **The Ender Pearl used to create the wand will drop above**.
 
 https://github.com/gabriel-pinheiro/datapacks/assets/56726395/daf92ed8-241f-40f9-9d76-50abc187b3ff
 
@@ -37,4 +37,4 @@ After downloading the `Warp Portals vX.Y.Z.zip` file (vX.Y.Z is the version numb
 
 To uninstall Warp Portals, execute the command `/function warp_portals:uninstall` in the world where you installed the datapack, then remove the `Warp Portals vX.Y.Z.zip` file from the `datapacks` folder.
 
-Note that Minecraft doesn't provide the necessary tools to actually remove the entirety of a datapack. This function will break (and drop the Nether Stars) of all portals in currently loaded chunks (if there are portals far from you, make sure to break them before uninstalling to retrieve their Nether Stars).
+Note that Minecraft doesn't provide the necessary tools to actually remove the entirety of a datapack. This function will break (and drop the Ender Pearls) of all portals in currently loaded chunks.
