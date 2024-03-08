@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Break Ender Chests",
+        "description": "You can break ender chests without Silk Touch and they'll drop as an item, instead of obsidians.",
+        "icon": {
+            "item": "minecraft:ender_chest"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:notnull",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
