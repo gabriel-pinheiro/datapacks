@@ -12,7 +12,7 @@ https://github.com/gabriel-pinheiro/datapacks/assets/56726395/badcf745-74c5-4ca9
 
 To create a Warp Portal, you need to forge a Portal Wand. To do so, you need to drop an **Ender Pearl** in a **Crying Obsidian** block. They will turn into a portal and **and the Crying Obsidian will be the destination of the portal** created by the wand.
 
-https://github.com/gabriel-pinheiro/datapacks/assets/56726395/8cdc0078-d18e-4355-b4a9-e8f3183f70e8
+https://github.com/gabriel-pinheiro/datapacks/assets/56726395/1976790b-b3fc-44e7-9d9e-32af71ca2d95
 
 ### Creating the Portal
 
