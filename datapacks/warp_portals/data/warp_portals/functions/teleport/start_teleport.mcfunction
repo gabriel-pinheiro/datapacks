@@ -6,7 +6,7 @@ tag @p add warp_portals.portal_cooldown
 tag @p add warp_portals.teleporting
 
 particle minecraft:portal ~ ~ ~ 0 0 0 1 100 normal
-playsound minecraft:block.portal.travel neutral @p ~ ~ ~ 1
+playsound minecraft:block.portal.travel block @p ~ ~ ~ 0.2
 effect give @p minecraft:nausea 30 1 true
 
 advancement grant @p only warp_portals:use_portal
