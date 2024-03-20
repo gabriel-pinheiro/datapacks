@@ -13,4 +13,4 @@ execute as @s[scores={warp_portals.portal_delta_x=..-1000000}] run function warp
 execute as @s[scores={warp_portals.portal_delta_z=1000000..}] run function warp_portals:error/destination_too_far
 execute as @s[scores={warp_portals.portal_delta_z=..-1000000}] run function warp_portals:error/destination_too_far
 
-execute as @s[scores={warp_portals.portal_delta_x=-5..5, warp_portals.portal_delta_y=-5..5, warp_portals.portal_delta_z=-5..5}] run function warp_portals:error/destination_too_close
+execute as @s[scores={warp_portals.portal_delta_x=-2..2, warp_portals.portal_delta_y=-2..2, warp_portals.portal_delta_z=-2..2}] run function warp_portals:error/destination_too_close
