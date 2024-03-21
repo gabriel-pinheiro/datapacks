@@ -1,3 +1,4 @@
+
 execute as @s[nbt={Item:{id:"minecraft:bamboo_raft"} }] run function stackable_items:merge_stack_size
 
 execute as @s[nbt={Item:{id:"minecraft:bamboo_chest_raft"} }] run function stackable_items:merge_stack_size
@@ -19,6 +20,16 @@ execute as @s[nbt={Item:{id:"minecraft:tnt_minecart"} }] run function stackable_
 execute as @s[nbt={Item:{id:"minecraft:hopper_minecart"} }] run function stackable_items:merge_stack_size
 
 execute as @s[nbt={Item:{id:"minecraft:saddle"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:snowball"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:egg"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:ender_pearl"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:armor_stand"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:totem_of_undying"} }] run function stackable_items:merge_stack_size
 
 execute as @s[nbt={Item:{id:"minecraft:acacia_sign"} }] run function stackable_items:merge_stack_size
 
@@ -157,4 +168,3 @@ execute as @s[nbt={Item:{id:"minecraft:yellow_bed"} }] run function stackable_it
 execute as @s[nbt={Item:{id:"minecraft:yellow_banner"} }] run function stackable_items:merge_stack_size
 
 tag @s add stackable_items.fixed
-

@@ -21,15 +21,6 @@ async function main() {
         'warped',
     ];
 
-    const all_wood_items = [
-        'sign',
-        'hanging_sign',
-    ];
-    const wood_items = [
-        'boat',
-        'chest_boat',
-    ];
-
     const colors = [
         'blue',
         'brown',
@@ -51,6 +42,14 @@ async function main() {
         'bed',
         'banner',
     ];
+    const all_wood_items = [
+        'sign',
+        'hanging_sign',
+    ];
+    const wood_items = [
+        'boat',
+        'chest_boat',
+    ];
 
     const items = [
         'bamboo_raft',
@@ -66,6 +65,12 @@ async function main() {
         'hopper_minecart',
 
         'saddle',
+        'snowball',
+        'egg',
+        'ender_pearl',
+        'armor_stand',
+
+        'totem_of_undying',
     ];
 
     for (const wood of woods) {
