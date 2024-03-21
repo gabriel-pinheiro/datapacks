@@ -3,7 +3,8 @@
         "title": "Installed Datapacks",
         "description": "",
         "icon": {
-            "item": "minecraft:knowledge_book"
+            "id": "minecraft:knowledge_book",
+            "count": 1
         },
         "background": "minecraft:textures/block/gray_concrete.png",
         "show_toast": false,

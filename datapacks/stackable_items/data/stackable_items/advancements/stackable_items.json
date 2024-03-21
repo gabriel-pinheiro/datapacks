@@ -3,7 +3,8 @@
         "title": "Stackable Items",
         "description": "Maximize inventory space. Stack totems, boats, signs, buckets, and more up to 64 per slot.",
         "icon": {
-            "item": "minecraft:totem_of_undying"
+            "id": "minecraft:totem_of_undying",
+            "count": 1
         },
         "announce_to_chat": false,
         "show_toast": false

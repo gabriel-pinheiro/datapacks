@@ -3,7 +3,8 @@
         "title": "NotNull",
         "description": "Datapacks by Gabriel Pinheiro",
         "icon": {
-            "item": "minecraft:string"
+            "id": "minecraft:string",
+            "count": 1
         },
         "show_toast": false,
         "announce_to_chat": false
