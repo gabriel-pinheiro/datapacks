@@ -68,7 +68,6 @@ async function main() {
         'snowball',
         'egg',
         'ender_pearl',
-        'armor_stand',
 
         'totem_of_undying',
     ];
