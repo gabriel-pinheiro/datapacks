@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "NotNull",
+        "description": "Datapacks by Gabriel Pinheiro",
+        "icon": {
+            "id": "minecraft:string",
+            "count": 1
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

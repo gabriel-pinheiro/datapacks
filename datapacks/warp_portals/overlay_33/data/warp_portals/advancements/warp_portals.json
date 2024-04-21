@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Warp Portals",
+        "description": "Create Warp Portals between your locations. Drop an Ender Pearl in a Crying Obsidian block to start",
+        "icon": {
+            "id": "minecraft:crying_obsidian",
+            "count": 1
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:notnull",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
