@@ -1,7 +1,7 @@
 # Warp Portals
 
 Create Warp Portals between your favorite locations. This datapack is made to be balanced, simple to use and lightweight.
-Warp Portals supports Multiplayer and uses the best practices for datapacks to insure compatibility with other datapacks.
+Warp Portals supports Multiplayer and uses the best practices for datapacks to ensure compatibility with other datapacks.
 This datapack doesn't use chunk loading, unlike most teleportation datapacks, which makes it lightweight no matter how many portals you have.
 
 https://github.com/gabriel-pinheiro/datapacks/assets/56726395/badcf745-74c5-4ca9-8f73-4bfb9a575b83
