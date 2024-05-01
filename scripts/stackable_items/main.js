@@ -70,6 +70,7 @@ async function main() {
         'ender_pearl',
 
         'totem_of_undying',
+        'shulker_box',
     ];
 
     for (const wood of woods) {

@@ -29,6 +29,8 @@ execute as @s[nbt={Item:{id:"minecraft:ender_pearl"} }] run function stackable_i
 
 execute as @s[nbt={Item:{id:"minecraft:totem_of_undying"} }] run function stackable_items:merge_stack_size
 
+execute as @s[nbt={Item:{id:"minecraft:shulker_box"} }] run function stackable_items:merge_stack_size
+
 execute as @s[nbt={Item:{id:"minecraft:acacia_sign"} }] run function stackable_items:merge_stack_size
 
 execute as @s[nbt={Item:{id:"minecraft:acacia_hanging_sign"} }] run function stackable_items:merge_stack_size
