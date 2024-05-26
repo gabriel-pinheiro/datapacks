@@ -9,6 +9,7 @@ schedule clear warp_portals:second
 scoreboard objectives remove warp_portals.portal_x
 scoreboard objectives remove warp_portals.portal_y
 scoreboard objectives remove warp_portals.portal_z
+scoreboard objectives remove warp_portals.portal_dim
 scoreboard objectives remove warp_portals.portal_delta_x
 scoreboard objectives remove warp_portals.portal_delta_y
 scoreboard objectives remove warp_portals.portal_delta_z
