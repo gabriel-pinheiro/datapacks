@@ -1,7 +1,10 @@
 
-execute as @s store result score @s warp_portals.portal_x run data get entity @s Pos[0] 1
-execute as @s store result score @s warp_portals.portal_y run data get entity @s Pos[1] 1
-execute as @s store result score @s warp_portals.portal_z run data get entity @s Pos[2] 1
+execute store result score @s warp_portals.portal_x run data get entity @s Pos[0] 1
+execute store result score @s warp_portals.portal_y run data get entity @s Pos[1] 1
+execute store result score @s warp_portals.portal_z run data get entity @s Pos[2] 1
+execute if dimension minecraft:overworld run scoreboard players set @s warp_portals.portal_dim 1
+execute if dimension minecraft:the_nether run scoreboard players set @s warp_portals.portal_dim 2
+execute if dimension minecraft:the_end run scoreboard players set @s warp_portals.portal_dim 3
 
 loot spawn ~ ~ ~ loot warp_portals:gameplay/portal_wand
 
