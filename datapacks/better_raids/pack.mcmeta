@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Ravagers are 1.4x bigger to be easier to kill in farms and make raid omen 2s instead of 30s",
+        "pack_format": 36,
+		"supported_formats": {"min_inclusive": 36, "max_inclusive": 45}
+    }
+}
