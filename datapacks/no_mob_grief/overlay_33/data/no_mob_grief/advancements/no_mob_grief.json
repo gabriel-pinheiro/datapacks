@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Better noMobGriefing",
+        "description": "Creepers, ghasts and enderman don't affect blocks. This datapack doesn't affect Villagers like the gamerule.",
+        "icon": {
+            "id": "minecraft:gunpowder",
+            "count": 1
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:notnull",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
