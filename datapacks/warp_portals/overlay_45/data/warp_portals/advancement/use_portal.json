@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "Use a Warp Portal",
+        "description": "Use a Warp Portal to teleport to another location",
+        "icon": {
+            "id": "minecraft:chorus_fruit",
+            "count": 1
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "warp_portals:create_portal",
+    "criteria": {
+        "warp_portals_forge_wand": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

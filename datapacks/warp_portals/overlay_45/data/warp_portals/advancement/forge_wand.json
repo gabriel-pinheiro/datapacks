@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "Forge a Portal Wand",
+        "description": "Drop an Ender Pearl on a Crying Obsidian",
+        "icon": {
+            "id": "minecraft:ender_pearl",
+            "count": 1
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:nether/obtain_crying_obsidian",
+    "criteria": {
+        "warp_portals_forge_wand": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

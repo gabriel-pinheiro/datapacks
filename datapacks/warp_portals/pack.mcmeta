@@ -2,7 +2,7 @@
     "pack": {
         "description": "Create Warp Portals between your locations. Drop an Ender Pearl in a Crying Obsidian block to start.",
         "pack_format": 8,
-		"supported_formats": {"min_inclusive": 8, "max_inclusive": 41}
+		"supported_formats": {"min_inclusive": 8, "max_inclusive": 48}
     },
 	"overlays": {
 		"entries": [
@@ -25,6 +25,14 @@
 			{
 				"formats": {"min_inclusive": 37, "max_inclusive": 2147483647},
 				"directory": "overlay_37"
+			},
+			{
+				"formats": {"min_inclusive": 43, "max_inclusive": 2147483647},
+				"directory": "overlay_43"
+			},
+			{
+				"formats": {"min_inclusive": 45, "max_inclusive": 2147483647},
+				"directory": "overlay_45"
 			}
 		]
 	}
