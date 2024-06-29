@@ -2,6 +2,14 @@
     "pack": {
         "description": "Maximize inventory space. Stack totems, boats, signs, buckets, and more up to 64 per slot.",
         "pack_format": 36,
-		"supported_formats": {"min_inclusive": 36, "max_inclusive": 41}
+		"supported_formats": {"min_inclusive": 36, "max_inclusive": 48}
+    },
+	"overlays": {
+		"entries": [
+			{
+				"formats": {"min_inclusive": 45, "max_inclusive": 2147483647},
+				"directory": "overlay_45"
+			}
+        ]
     }
 }
