@@ -167,4 +167,36 @@ execute as @s[nbt={Item:{id:"minecraft:yellow_bed"} }] run function stackable_it
 
 execute as @s[nbt={Item:{id:"minecraft:yellow_banner"} }] run function stackable_items:merge_stack_size
 
+execute as @s[nbt={Item:{id:"minecraft:music_disc_13"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_cat"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_blocks"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_chirp"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_far"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_mall"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_mellohi"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_stal"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_strad"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_ward"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_11"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_wait"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_otherside"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_relic"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_5"} }] run function stackable_items:merge_stack_size
+
+execute as @s[nbt={Item:{id:"minecraft:music_disc_pigstep"} }] run function stackable_items:merge_stack_size
+
 tag @s add stackable_items.fixed

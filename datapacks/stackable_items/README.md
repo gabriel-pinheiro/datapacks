@@ -1,8 +1,6 @@
 # Stackable Items
 
-## ⚠️ IMPORTANT: This datapack is only supported on 1.20.5 and above (inclusing release candidates, pre-releases and snapshots from 24w10a on)
-
-Maximize your inventory space with the Stackable Items Datapack! This datapack allows you to stack various items, such as totems, boats, signs, buckets, and more, up to 64 per slot.
+Maximize your inventory space with the Stackable Items Datapack! This datapack allows you to stack various items, such as totems, boats, signs, buckets, and more, up to 64 per slot. Supported on 1.20.5 and above.
 
 <!-- TODO add prints -->
 
@@ -23,6 +21,7 @@ Buckets won't be 64-stackable when you get them from emptying a water/lava bucke
 - All the hanging signs
 - All the chest boats
 - All the minecarts
+- All the music discs
 - Armor stands
 - Empty buckets
 - Honey bottles

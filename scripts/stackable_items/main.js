@@ -51,6 +51,25 @@ async function main() {
         'chest_boat',
     ];
 
+    const discs = [
+        '13',
+        'cat',
+        'blocks',
+        'chirp',
+        'far',
+        'mall',
+        'mellohi',
+        'stal',
+        'strad',
+        'ward',
+        '11',
+        'wait',
+        'otherside',
+        'relic',
+        '5',
+        'pigstep',
+    ];
+
     const items = [
         'bamboo_raft',
         'bamboo_chest_raft',
@@ -73,6 +92,12 @@ async function main() {
         'shulker_box',
     ];
 
+    const v1_21 = [
+        'music_disc_creator',
+        'music_disc_precipice',
+        'music_disc_creator_music_box',
+    ];
+
     for (const wood of woods) {
         for (const item of all_wood_items) {
             items.push(`${wood}_${item}`);
@@ -93,6 +118,10 @@ async function main() {
         for (const item of dyeable_items) {
             items.push(`${color}_${item}`);
         }
+    }
+
+    for (const disc of discs) {
+        items.push(`music_disc_${disc}`);
     }
 
     const result = await template({ items });
